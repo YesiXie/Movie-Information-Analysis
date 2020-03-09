@@ -1,4 +1,4 @@
-# MovieInformationAnalysis
+# Movie Information Analysis
 
 The project is based on IMDb data from IMDb.com. The data warehouse is built for users who are interested in the movie data. The goal of the data warehouse is to show some statistical analysis about movie data from 2011 to 2018. The website will show this statistical analysis by various tables and graphs.
 Three different databases are used which in this project based on MySQL, MongoDB and Neo4j. These three databases save same data in different architectures and use different database language to achieve some data warehouse query.
