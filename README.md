@@ -31,9 +31,9 @@ This rating page shows the title of top 30 movies in 2011 which the number of vo
 
 ## How to set up the project:
 
-1.There are three sql files for mysql (IMDB.sql, bar.sql, line.sql)，import them into mysql database, please import IMDB.sql first.
+1. There are three sql files for mysql (IMDB.sql, bar.sql, line.sql)，import them into mysql database, please import IMDB.sql first.
 
-2.There are one cypher file for neo4j (allCQL.cypher), import it into neo4j database. Then unwind data and build relationship of these tables:
+2. There are one cypher file for neo4j (allCQL.cypher), import it into neo4j database. Then unwind data and build relationship of these tables:
 
 
   match (b:basic) unwind (b.genres) as bb create(s:newbasic{tconst:b.tconst,titleType:b.titleType,primaryTitle:b.primaryTitle,originalTitle:b.originalTitle,isAdult:b.isAdult,startYear:b.startYear,endYear:b.endYear,runtimeMinutes:b.runtimeMinutes,genres:bb})
@@ -56,4 +56,4 @@ This rating page shows the title of top 30 movies in 2011 which the number of vo
   run these queries in order.
 
 
-  3.import mergedALL.json into mongodb database.
+  3. import mergedALL.json into mongodb database.
