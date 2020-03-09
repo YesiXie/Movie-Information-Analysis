@@ -4,7 +4,7 @@ The project is based on IMDb data from IMDb.com. The data warehouse is built for
 Three different databases are used which in this project based on MySQL, MongoDB and Neo4j. These three databases save same data in different architectures and use different database language to achieve some data warehouse query.
 For the front-end structure, PHP is used to call data from MySQL, MongoDB and Neo4j, and html to do page design. 
 
-#Example pages
+# Example pages
 
 1. Index page
 The index page includes administrator log in, a navigation banner, some data description, and a copyright description.
