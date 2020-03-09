@@ -6,18 +6,18 @@ For the front-end structure, PHP is used to call data from MySQL, MongoDB and Ne
 
 # Example pages
 
-1. Index page
+1. Index page  
 The index page includes administrator log in, a navigation banner, some data description, and a copyright description.
 ![image](https://github.com/YesiXie/MovieInformationAnalysis/blob/master/Images/Homepage.png)
 
 User can only see the home, ratings and Reference pages. If log in as administrator, we can check statistics information.
 ![image](https://github.com/YesiXie/MovieInformationAnalysis/blob/master/Images/Login.png)
 
-2. Rating page
+2. Rating page  
 This rating page shows the title of top 30 movies in 2011 which the number of votes larger than 100000 in descending order.
 ![image](https://github.com/YesiXie/MovieInformationAnalysis/blob/master/Images/Ratings.png)
 
-3. Statistics page
+3. Statistics page  
 Line chart shows the number of votes of “Drama” movies in UK.
 ![image](https://github.com/YesiXie/MovieInformationAnalysis/blob/master/Images/Statistics.png)
 
